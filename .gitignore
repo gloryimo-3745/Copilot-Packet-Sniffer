@@ -1,0 +1,36 @@
+# Python environments, bytecode, and test caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE metadata
+.idea/
+.vscode/
+
+# Local secrets and key material
+.env
+.env.*
+!.env.example
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Evidence screenshots and images
+evidence/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Raw packet captures and dumps
+*.pcap
+*.pcapng
+*.pcap.gz
+*.pcapng.gz
+*.cap
+*.dump
